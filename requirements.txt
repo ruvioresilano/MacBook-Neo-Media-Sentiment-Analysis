@@ -1,0 +1,8 @@
+pandas
+matplotlib
+nltk
+vaderSentiment
+scikit-learn
+wordcloud
+spacy
+requests
