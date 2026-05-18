@@ -221,3 +221,21 @@ macbook-neo-sentiment-analysis/
 The sentiment analysis indicates that media coverage of the MacBook Neo was overwhelmingly positive, with most articles emphasizing affordability, premium design, strong performance, and accessibility to new Apple users. Negative sentiment was largely associated with supply-chain concerns and pricing risks rather than dissatisfaction with the product itself. Overall, the findings suggest that the MacBook Neo was perceived as a highly successful and disruptive entry into the budget laptop market.
 
 ---
+
+## Limitations
+
+Although the data collection period was configured to begin on March 11, 2026, the earliest relevant articles retrieved from the API only started appearing in April 2026. This may have been caused by several factors, including limited historical article availability, low keyword usage frequency, NewsAPI.ai indexing limitations, or the possibility that the phrase “MacBook Neo” was not widely used in media coverage before April 2026.
+
+Additionally, the analysis relied on VADER sentiment analysis, which is a lexicon-based NLP model. While effective for media and social-text sentiment classification, it may not fully capture sarcasm, contextual nuance, or highly technical language found in certain technology articles. The dataset was also limited to English-language articles, meaning that media sentiment from non-English sources was not included in the analysis.
+
+Finally, the project focused primarily on media sentiment rather than direct consumer sentiment from social media platforms, forums, or customer reviews, which may provide different perspectives on product perception.
+
+---
+
+## Future Research
+
+Future research could expand the analysis by incorporating additional data sources such as Reddit, X (Twitter), YouTube comments, online forums, or customer reviews to better capture public sentiment beyond news media coverage. A larger multilingual dataset could also provide a more global understanding of media perception across different regions and languages.
+
+More advanced NLP models such as BERT, RoBERTa, or FinBERT could be explored to improve sentiment classification accuracy and better understand contextual meaning in technology-related articles. Topic modeling techniques such as LDA (Latent Dirichlet Allocation) could also be applied to identify emerging discussion themes automatically.
+
+Additionally, future studies could compare sentiment trends between competing products such as MacBook Air, Chromebook Plus devices, or Windows laptops to better understand the MacBook Neo’s positioning within the broader laptop market.
